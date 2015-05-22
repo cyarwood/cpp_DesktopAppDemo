@@ -1,6 +1,21 @@
 #include <iostream>
 
-int main(){
+int main()
+{
+	// Testing cout
 	std::cout << "TESTING 1 2 3...\n";
+	
+	// Testing calling a function
+	std::cout << getNum();
+	
+	// Testing cin.ignore()
 	cin.ignore();
-	return 0;}
+	
+	// Bail
+	return 0;
+}
+
+void getNum()
+{
+	return (5 * 5);
+}
